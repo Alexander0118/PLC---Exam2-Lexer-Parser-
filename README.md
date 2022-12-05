@@ -118,7 +118,7 @@
 
 ### g) Test Files
 
-- Text files can be found right underneath the Lexer.py, Parser.py and README.md files.
+- Text files can be found right underneath the Compiler.py, Lexer.py, Parser.py and README.md files.
 - 2 with no errors
   - Test1.txt
   - Test2.txt
