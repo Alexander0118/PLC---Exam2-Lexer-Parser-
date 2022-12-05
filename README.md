@@ -160,5 +160,6 @@ In between steps 9 and 10 it is missing an operator token. Either it being a com
 <img width="537" alt="Screenshot 2022-12-05 at 4 26 57 AM" src="https://user-images.githubusercontent.com/97654476/205601820-e1250dff-2b35-4f02-aefb-fd5a3b99a93a.png">
 
 After step 17, it is missing either an id or num after the addition symbol. For this reason it cannot finish parsing and creating a proper tree.
+
 <img width="548" alt="Screenshot 2022-12-05 at 4 30 31 AM" src="https://user-images.githubusercontent.com/97654476/205602546-20ebedbf-932c-43fc-b135-ffa98637fca7.png">
 <img width="517" alt="Screenshot 2022-12-05 at 4 30 49 AM" src="https://user-images.githubusercontent.com/97654476/205602600-5e358603-a408-4437-90a9-e50fe0bf96c0.png">
