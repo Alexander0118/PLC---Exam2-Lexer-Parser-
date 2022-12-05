@@ -1,0 +1,17 @@
+PRINT "This is text file Test4"
+
+INPUT one 
+INPUT two
+
+LET one = 18
+LET two = 6
+
+MEANTIME one < 5 && two > 10 REPEAT:
+    PRINT "Hello World";
+    WHETHER one > two || two == two THEN
+        LET three = 5 ^ 2
+        LET four = 20 / 2 
+        PRINT three + four
+    ENDWHETHER
+ENDMEANTIME
+

@@ -1,6 +1,16 @@
-3 + 9 
-5 - 3
-5 * 5
-10 % 5
-(8 / 2) + 6
-2 - ((8 / 2) + 4) * 1
+PRINT "Math is annoying!"
+INPUT nums
+
+LET a = 9
+LET b = 3
+LET c = (100 / (2 * 5) + 4)
+
+MEANTIME nums > 0 REPEAT
+    PRINT a
+    LET d = a + b
+    LET a = b
+    LET b = d
+    LET nums = b
+    LET nums = nums - 1
+    PRINT nums
+ENDMEANTIME

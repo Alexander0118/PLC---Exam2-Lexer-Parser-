@@ -1,0 +1,14 @@
+PRINT "This is text file Test3."
+
+LET x = -6
+LET y = 2 * 2
+
+WHETHER (16 / 4 >= y THEN 
+    LT y = 18
+ENDWHETHER
+
+WHILE -1 < x REPEAT 
+    PRINT "Chocolate is good!
+MEANTIME
+
+PRINT y
